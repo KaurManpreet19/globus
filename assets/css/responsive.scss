@@ -2,34 +2,43 @@
   .boomReverse {
     flex-direction: column-reverse;
   }
+
   .boom-hide {
     display: none;
   }
+
   .banner-item {
     height: 294px;
   }
+
   .page-title-area .title-content {
     width: 100%;
     margin-top: unset;
+
     h1 {
       font-size: 21px;
     }
+
     p.inner-banner-para {
       width: 100%;
     }
   }
+
   .section-title.custom-align-left {
     text-align: unset;
   }
+
   .section-title {
     h1 {
       font-size: 28px;
       font-weight: 600;
     }
+
     p {
       font-size: 15px;
     }
   }
+
   .mobile-imgg {
     height: 277px;
     object-fit: cover;
@@ -38,9 +47,11 @@
 
   .testimonial-heading {
     flex-direction: column;
+
     .boomP {
       margin-bottom: 0px !important;
     }
+
     #mNone {
       margin-bottom: none;
     }
@@ -57,6 +68,7 @@
   li.valueContent {
     width: 90%;
   }
+
   .cutom-about-icons-section ul {
     display: flex;
     flex-direction: column;
@@ -64,29 +76,36 @@
     text-align: center;
     margin: 5px 0;
   }
+
   .Life-at-globus {
     display: none;
   }
+
   .item--meta {
     margin-bottom: 9px;
     padding: 9px 6px;
     height: unset;
   }
+
   .about-icon {
     width: 50px;
   }
+
   .boomAddressCard {
     display: none;
   }
+
   form.ctz {
     margin-top: 26px;
   }
+
   .ctz h3 {
     font-size: 28px;
     margin-bottom: 24px;
     text-align: center;
     font-weight: 800;
     text-transform: capitalize;
+
     span {
       color: #9a1a18;
     }
@@ -98,6 +117,7 @@
 
   .logo-area .logo-text h3 {
     font-weight: 600;
+
     span {
       color: #9a1a18;
     }
@@ -106,9 +126,11 @@
   .ctaform {
     margin-bottom: 0px;
   }
+
   .logo-area {
     padding: 22px 3px;
   }
+
   .about-area .about-content {
     margin-bottom: 0px;
   }
@@ -120,15 +142,19 @@
     width: 100%;
     object-fit: cover;
   }
+
   .services-main-page {
     padding-top: 53px;
     padding-bottom: 1px;
+
     h2 {
       font-weight: 600;
     }
+
     p {
       font-size: 15px;
     }
+
     .row {
       h3 {
         font-weight: 500;
@@ -144,11 +170,13 @@
   .aboutImage_ba {
     margin-top: 22px;
   }
+
   .padding-bottom {
     padding-bottom: 25px;
     margin-top: 15px;
     text-transform: capitalize;
   }
+
   .choose-us-content {
     margin-top: 52px;
   }
@@ -157,6 +185,7 @@
     font-size: 17px;
     padding-right: 0px;
   }
+
   .choose-us-img::before {
     content: "";
     position: absolute;
@@ -168,6 +197,7 @@
     background-color: darkred;
     z-index: -1;
   }
+
   .whyCTACover .whyCTA p {
     font-size: 21px;
     font-weight: bold;
@@ -187,9 +217,11 @@
   .most-right p {
     font-size: 15px;
   }
+
   .project-details-area {
     padding: 50px 0 !important;
   }
+
   .Blog-section {
     padding: 50px 0px;
   }
@@ -197,15 +229,18 @@
   .section-title h2 {
     font-size: 28px !important;
   }
+
   .whyDifferent {
     padding: 50px 0px;
   }
+
   .choose-us-content ul {
     display: flex;
     margin-top: 30px;
     justify-content: center;
     margin-bottom: 37px;
   }
+
   .custom-process {
     padding: 50px 0;
   }
@@ -224,9 +259,11 @@
     align-items: center;
     text-align: center;
   }
+
   .whyCareer .hj .card .card-body .card-text {
     text-align: unset;
   }
+
   // Boomzone
 
   // Ending of the query
@@ -441,7 +478,7 @@
   }
 
   .banner-area {
-    .owl-theme .owl-nav.disabled + .owl-dots {
+    .owl-theme .owl-nav.disabled+.owl-dots {
       max-width: 100%;
       text-align: center;
     }
@@ -1237,7 +1274,7 @@
   }
 
   .banner-area {
-    .owl-theme .owl-nav.disabled + .owl-dots {
+    .owl-theme .owl-nav.disabled+.owl-dots {
       max-width: 100%;
       text-align: center;
     }
@@ -1791,7 +1828,7 @@
   }
 
   .banner-area {
-    .owl-theme .owl-nav.disabled + .owl-dots {
+    .owl-theme .owl-nav.disabled+.owl-dots {
       max-width: 940px;
     }
   }
@@ -2009,7 +2046,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
-  .banner-area .owl-theme .owl-nav.disabled + .owl-dots {
+  .banner-area .owl-theme .owl-nav.disabled+.owl-dots {
     max-width: 1130px;
   }
 
@@ -2178,7 +2215,7 @@
     justify-content: center;
   }
 
-  ul.ruby-menu > li.ruby-menu-mega-shop > div > ul > li > a {
+  ul.ruby-menu>li.ruby-menu-mega-shop>div>ul>li>a {
     padding: 20px 6px !important;
   }
 
@@ -2339,9 +2376,24 @@
     display: flex;
     align-items: baseline;
   }
+
   .choose-us-area.ptb-100.custom-process {
     text-align: center;
-}
+  }
+
+  .whyDifferent li {
+    justify-content: center;
+  }
+
+  .item--meta {
+    margin-bottom: 9px;
+    padding: 32px 6px;
+    height: unset;
+  }
+
+  .testimonials-area .testimonials-item {
+    height: 395px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
