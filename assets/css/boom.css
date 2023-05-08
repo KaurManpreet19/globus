@@ -42,7 +42,7 @@
   .openPositions .openPositions-tab {
     background: unset !important;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 25px;
     margin-bottom: 20px;
   }
   .openPositions .nav-pills .nav-link.active,
