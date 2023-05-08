@@ -21,6 +21,11 @@
     display: flex;
     justify-content: center;
   }
+  .container.openPositions p {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
   
   .openPositions {
     padding: 100px 0;
