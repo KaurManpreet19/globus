@@ -21,9 +21,6 @@
     display: flex;
     justify-content: center;
   }
-  .carrerBOX .carrerBOX-img img {
-    width: 437px;
-  }
   
   .openPositions {
     padding: 100px 0;
