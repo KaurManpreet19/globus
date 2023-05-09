@@ -162,6 +162,11 @@ jQuery(function ($) {
                 items: 3,
                 nav: true,
                 loop: true
+            },
+            1800: {
+                items: 3,
+                nav: true,
+                loop: true
             }
         }
     });
