@@ -53,7 +53,6 @@ $black-color: #212832;
 }
 .boomP {
   font-size: 18px;
-  font-style: italic;
 }
 
 /*----- Default CSS -----*/
@@ -6454,8 +6453,8 @@ a {
   overflow: hidden;
   padding: 26px;
   background: #fff;
-  -webkit-box-shadow: 0 0 30px rgb(85 85 85 / 10%);
-  box-shadow: 0 0 30px rgb(85 85 85 / 10%);
+  -webkit-box-shadow: 0 0 30px #5555551a;
+  box-shadow: 0 0 30px #5555551a;
   border-radius: 20px;
   margin-left: 30px;
   margin-right: 30px;
@@ -6809,8 +6808,7 @@ p.inner-banner-para {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-box-shadow: 0 0 10px rgb(0 0 0/10%);
-  box-shadow: 0 0 2px rgb(238 238 238/43%);
+  box-shadow: 0 0 2px rgba(238, 238, 238, 0.43);
   z-index: 999;
   background-color: #fff;
   padding: 0 !important;
@@ -8641,7 +8639,7 @@ ul.footer-links {
     color: #fff;
     width: 100%;
     height: 100%;
-    background-color: rgb(62 62 62 / 93%);
+    background-color: rgba(62, 62, 62, 0.93);
     transition: all 0.5s ease;
     position: absolute;
     top: 0;
@@ -8896,7 +8894,7 @@ insights-section-mains {
   background-color: #fff;
   border-color: #9a1a18;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 25%) !important;
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25) !important;
 }
 
 .padding-bottom {
@@ -8923,4 +8921,14 @@ a {
 
   .about-icon {
     width: 84px;
+}
+.ruby-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 2px rgba(238, 238, 238, 0.43);
+  z-index: 999;
+  background-color: #fff;
+  padding: 0 !important;
 }

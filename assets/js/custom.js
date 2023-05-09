@@ -4,9 +4,9 @@ jQuery(function ($) {
     // Menu JS
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 50) {
-            $('header .nav').addClass('fixed');
+            $('.ruby-wrapper').addClass('fixed');
         } else {
-            $('header .nav').removeClass('fixed');
+            $('.ruby-wrapper').removeClass('fixed');
         }
     });
     // Menu JS
