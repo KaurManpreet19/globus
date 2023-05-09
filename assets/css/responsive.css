@@ -1813,4 +1813,8 @@
     padding: 25px 0;
   }
 }
+
+div.ruby-grid > div.ruby-row .blog-side-item {
+  padding: 0;
+}
 /*# sourceMappingURL=responsive.css.map */
