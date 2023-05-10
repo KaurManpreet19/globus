@@ -373,6 +373,17 @@ ul {
 }
 
 .whyDifferent li {
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding: 10px 22px;
+  border-radius: 12px;
+  -ms-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
+  -o-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
+  -webkit-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
+          box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
+}
+
+.whyDifferent li .flex {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -380,21 +391,19 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 25px;
-  padding: 10px 22px;
-  background-color: #fff;
-  border-radius: 12px;
-  -ms-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
-  -o-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
-  -webkit-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
-          box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
   text-align: left;
   height: 100%;
   gap: 8px;
 }
 
-.whyDifferent li img {
+.whyDifferent li .flex img {
   max-width: 60px;
+}
+
+.whyDifferent li p {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -4282,7 +4291,6 @@ p {
 .page-title-area .title-content {
   position: relative;
   z-index: 1;
-  margin-top: 114px;
 }
 
 .page-title-area .title-content h2 {

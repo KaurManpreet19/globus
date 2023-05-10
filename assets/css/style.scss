@@ -377,22 +377,31 @@ ul {
   }
 
   li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+
+    background-color: #fff;
     margin-bottom: 25px;
     padding: 10px 22px;
-    background-color: #fff;
     border-radius: 12px;
     -ms-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
     -o-box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
     box-shadow: 0 11px 43px rgba(7, 87, 107, 0.1);
-    text-align: left;
-    height: 100%;
-    gap: 8px;
 
-    img {
-      max-width: 60px;
+    .flex {
+      list-style-type: none;
+      display: flex;
+      align-items: center;    
+      text-align: left;
+      height: 100%;
+      gap: 8px;
+
+      img {
+        max-width: 60px;
+      }
+    }
+    p{
+      text-align: left;
+      margin-top:10px;
+      margin-bottom: 10px;
     }
   }
 }
@@ -2158,7 +2167,7 @@ p {
 
             i {
               line-height: 30px;
-              color:#fff;
+              color: #fff;
             }
 
             &:hover {
@@ -4464,7 +4473,7 @@ p {
   .title-content {
     position: relative;
     z-index: 1;
-    margin-top: 114px;
+    // margin-top: 114px;
 
     h2 {
       margin-bottom: 10px;
