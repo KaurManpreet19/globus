@@ -1088,7 +1088,8 @@ ul.ruby-menu>li.ruby-active-menu-item>a {
 
 ul.ruby-menu>li>a .fa {
     position: relative;
-    width: 24px
+    width: 24px;
+    color:#fff;
 }
 
 ul.ruby-menu>li>a>img {
