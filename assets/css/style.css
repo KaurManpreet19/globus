@@ -1938,29 +1938,33 @@ a:hover {
 
 .blog-item a {
   display: block;
+  font-family: "Segoe UI Bold";
+  color: #131c21;
+  letter-spacing: 0.3px;
+  font-size: 20px;
 }
 
-.blog-item a img {
+.blog-item img {
   width: 100%;
   margin-bottom: 15px;
 }
 
-.blog-item ul {
+ul {
   margin-bottom: 10px;
 }
 
-.blog-item ul li {
+ul li {
   list-style-type: none;
   display: inline-block;
   margin-right: 12px;
   font-size: 15px;
 }
 
-.blog-item ul li:last-child {
+ul li:last-child {
   margin-right: 0;
 }
 
-.blog-item ul li i {
+ul li i {
   display: inline-block;
   color: #9a1a18;
   font-size: 18px;
@@ -1969,48 +1973,48 @@ a:hover {
   margin-right: 2px;
 }
 
-.blog-item ul li span {
+ul li span {
   display: inline-block;
   font-size: 18px;
   color: #9a1a18;
 }
 
-.blog-item ul li a {
+ul li a {
   display: inline-block;
   color: #444444;
   font-size: 15px;
 }
 
-.blog-item ul li a:hover {
+ul li a:hover {
   color: #9a1a18;
 }
 
-.blog-item h3 {
+h3 {
   font-size: 22px;
   margin-bottom: 8px;
   line-height: 1.4;
 }
 
-.blog-item h3 a {
+h3 a {
   color: #3e3e3e;
 }
 
-.blog-item h3 a:hover {
+h3 a:hover {
   color: #9a1a18;
 }
 
-.blog-item p {
+p {
   margin-bottom: 10px;
 }
 
-.blog-item .blog-btn {
+.blog-btn {
   display: inline-block;
   color: #9a1a18;
   border-bottom: 1px solid #9a1a18;
   font-weight: 600;
 }
 
-.blog-item .blog-btn:hover {
+.blog-btn:hover {
   color: #3e3e3e;
   border-bottom: 1px solid #3e3e3e;
 }
@@ -3169,6 +3173,7 @@ a:hover {
   font-family: "Segoe UI Bold";
   color: #131c21;
   letter-spacing: 0.3px;
+  font-size: 20px;
 }
 
 .blog-area.two .blog-item h4 a:hover {
