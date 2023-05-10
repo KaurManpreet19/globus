@@ -142,7 +142,6 @@ jQuery(function ($) {
         nav: true,
         dots: true,
         arrows: false,
-        smartSpeed: 500,
         autoplay: true,
         autoplayHoverPause: false,
         navText: [
